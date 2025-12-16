@@ -1,0 +1,38 @@
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "about": "About",
+    "contact": "Contact"
+  },
+   "home": {
+    "eyebrow": "Fullstack Developer • Frontend-focused",
+    "headline": "Fullstack Developer focused on Frontend",
+    "subheadline": "I build web and mobile products with a focus on performance, UX, and maintainability. I’ve contributed to multi-tenant platforms and systems with continuous delivery.",
+    "ctaPrimary": "View projects",
+    "ctaSecondary": "Contact",
+    "panelTitle": "Current focus",
+    "panelItem1": "UI/UX: robust interfaces, motion, and reusable components.",
+    "panelItem2": "Architecture: multi-tenant, APIs, data modeling, and best practices.",
+    "panelItem3": "Delivery: CI/CD, Docker, Vercel, and reliable deployments."
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Selected work across web, mobile, and fullstack systems.",
+    "featured": "Featured",
+    "view": "View",
+    "role": "Role",
+    "highlights": "Highlights",
+    "filterLabel": "Filter by technology",
+    "filterAll": "All"
+  },
+  "about": {
+    "title": "About",
+    "body": "I’m a Fullstack Developer with a strong Frontend focus. I enjoy building solid interfaces, purposeful motion, and maintainable systems."
+  },
+    "contact": {
+    "title": "Contact",
+    "body": "If you’d like to discuss a role or collaboration, email me and we can schedule a quick call.",
+    "cta": "Send email"
+  }
+}

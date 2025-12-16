@@ -9,7 +9,9 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "framer-motion": "^12.23.26",
     "next": "16.0.10",
+    "next-intl": "^4.6.0",
     "react": "19.2.1",
     "react-dom": "19.2.1"
   },
@@ -22,5 +24,6 @@
     "eslint-config-next": "16.0.10",
     "tailwindcss": "^4",
     "typescript": "^5"
-  }
+  },
+  "packageManager": "pnpm@10.25.0+sha512.5e82639027af37cf832061bcc6d639c219634488e0f2baebe785028a793de7b525ffcd3f7ff574f5e9860654e098fe852ba8ac5dd5cefe1767d23a020a92f501"
 }

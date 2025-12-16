@@ -1,0 +1,38 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "projects": "Proyectos",
+    "about": "Acerca de",
+    "contact": "Contacto"
+  },
+    "home": {
+    "eyebrow": "Fullstack Developer • Frontend-focused",
+    "headline": "Desarrollador Fullstack enfocado en Frontend",
+    "subheadline": "Construyo productos web y móviles con enfoque en performance, UX y mantenibilidad. He colaborado en plataformas multi-tenant y sistemas con despliegue continuo.",
+    "ctaPrimary": "Ver proyectos",
+    "ctaSecondary": "Contactar",
+    "panelTitle": "Enfoque actual",
+    "panelItem1": "UI/UX: interfaces robustas, animación y componentes reutilizables.",
+    "panelItem2": "Arquitectura: multi-tenant, APIs, modelado de datos y buenas prácticas.",
+    "panelItem3": "Entrega: CI/CD, Docker, Vercel y despliegues confiables."
+  },
+  "projects": {
+    "title": "Proyectos",
+    "subtitle": "Trabajo seleccionado en web, mobile y sistemas fullstack.",
+    "featured": "Destacados",
+    "view": "Ver",
+    "role": "Rol",
+    "highlights": "Highlights",
+    "filterLabel": "Filtrar por tecnología",
+    "filterAll": "Todas"
+  },
+    "about": {
+    "title": "Acerca de",
+    "body": "Soy desarrollador Fullstack con enfoque fuerte en Frontend. Me gusta construir interfaces sólidas, animación con intención y sistemas mantenibles."
+  },
+  "contact": {
+    "title": "Contacto",
+    "body": "Si quieres platicar sobre una vacante o colaboración, escríbeme y con gusto coordinamos una llamada.",
+    "cta": "Enviar correo"
+  }
+}

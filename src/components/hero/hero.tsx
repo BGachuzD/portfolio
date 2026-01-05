@@ -3,6 +3,7 @@
 import * as React from 'react';
 import {motion, useReducedMotion, useScroll, useTransform} from 'framer-motion';
 import {useTranslations} from 'next-intl';
+import { TECNOLOGIESTAGS } from '@/constants/tags';
 
 export default function Hero() {
   const t = useTranslations('home');
@@ -15,12 +16,11 @@ export default function Hero() {
     offset: ['start start', 'end start']
   });
 
-  // Parallax transforms (solo si no reduce motion)
+  // Parallax transforms
   const y1 = useTransform(scrollYProgress, [0, 1], [0, reduceMotion ? 0 : -60]);
   const y2 = useTransform(scrollYProgress, [0, 1], [0, reduceMotion ? 0 : -120]);
   const opacity = useTransform(scrollYProgress, [0, 1], [1, 0.65]);
 
-  // Animación de entrada del headline
   const headline = t('headline');
   const words = React.useMemo(() => headline.split(' '), [headline]);
 
@@ -31,7 +31,7 @@ export default function Hero() {
         {/* Base gradient */}
         <div className="absolute inset-0 bg-linear-to-b from-neutral-50 to-white" />
 
-        {/* Blobs animados (sutiles) */}
+        {/* Blobs animados */}
         {!reduceMotion && (
           <>
             <motion.div
@@ -69,7 +69,7 @@ export default function Hero() {
               {t('eyebrow')}
             </motion.p>
 
-            {/* Headline (word-by-word reveal) */}
+            {/* Headline */}
             <h1 className="mt-3 text-4xl font-semibold tracking-tight text-neutral-950 md:text-5xl">
               {words.map((w, i) => (
                 <motion.span
@@ -148,7 +148,7 @@ export default function Hero() {
               </ul>
 
               <div className="mt-6 flex flex-wrap gap-2">
-                {['Next.js', 'React', 'React Native', 'Prisma', 'Firebase', 'DevOps'].map((tag) => (
+                {TECNOLOGIESTAGS.map((tag) => (
                   <span
                     key={tag}
                     className="rounded-full bg-neutral-100 px-3 py-1 text-xs text-neutral-700"

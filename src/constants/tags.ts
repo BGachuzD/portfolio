@@ -1,0 +1,23 @@
+export const TECNOLOGIESTAGS = [
+  'JavaScript',
+  'TypeScript',
+  'React',
+  'Next.js',
+  'React Native',
+  'Node.js',
+  'Express',
+  'GraphQL',
+  'REST',
+  'Prisma',
+  'PostgreSQL',
+  'MongoDB',
+  'Firebase',
+  'Docker',
+  'CI/CD',
+  'MUI',
+  'Tailwind CSS',
+  'Expo',
+  'Vercel',
+  'Dart',
+  'Flutter'
+]

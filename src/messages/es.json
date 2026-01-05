@@ -2,37 +2,37 @@
   "nav": {
     "home": "Inicio",
     "projects": "Proyectos",
-    "about": "Acerca de",
+    "about": "Sobre mí",
     "contact": "Contacto"
   },
-    "home": {
-    "eyebrow": "Fullstack Developer • Frontend-focused",
-    "headline": "Desarrollador Fullstack enfocado en Frontend",
-    "subheadline": "Construyo productos web y móviles con enfoque en performance, UX y mantenibilidad. He colaborado en plataformas multi-tenant y sistemas con despliegue continuo.",
+  "home": {
+    "eyebrow": "Fullstack con alma de Frontend",
+    "headline": "Brayan Gachuz Dev Fullstack enfocado en Frontend",
+    "subheadline": "Construyo productos web y móviles con performance, UX y mantenibilidad. He liderado e implementado interfaces escalables, integraciones con microservicios y arquitectura multi-tenant, de inicio a fin.",
     "ctaPrimary": "Ver proyectos",
-    "ctaSecondary": "Contactar",
+    "ctaSecondary": "Hablemos",
     "panelTitle": "Enfoque actual",
-    "panelItem1": "UI/UX: interfaces robustas, animación y componentes reutilizables.",
-    "panelItem2": "Arquitectura: multi-tenant, APIs, modelado de datos y buenas prácticas.",
-    "panelItem3": "Entrega: CI/CD, Docker, Vercel y despliegues confiables."
+    "panelItem1": "UI/UX: diseño de interfaces, animación y componentes reutilizables con estándares claros.",
+    "panelItem2": "Arquitectura: multi-tenant, APIs REST, tiempo real (Firebase) y modelado SQL/NoSQL.",
+    "panelItem3": "Entrega: Bitbucket Pipelines, Docker/Portainer, despliegues automatizados y monitoreo del flujo."
   },
   "projects": {
     "title": "Proyectos",
-    "subtitle": "Trabajo seleccionado en web, mobile y sistemas fullstack.",
+    "subtitle": "Trabajo seleccionado en web, mobile y soluciones fullstack (producto, plataformas y sistemas internos).",
     "featured": "Destacados",
-    "view": "Ver",
+    "view": "Ver detalle",
     "role": "Rol",
-    "highlights": "Highlights",
+    "highlights": "Lo más relevante",
     "filterLabel": "Filtrar por tecnología",
-    "filterAll": "Todas"
+    "filterAll": "Todo"
   },
-    "about": {
-    "title": "Acerca de",
-    "body": "Soy desarrollador Fullstack con enfoque fuerte en Frontend. Me gusta construir interfaces sólidas, animación con intención y sistemas mantenibles."
+  "about": {
+    "title": "Un poco sobre mí",
+    "body": "Soy desarrollador Frontend/Fullstack con más de 4 años construyendo aplicaciones web y móviles con React, Next.js y React Native (Expo). Me especializo en arquitectura de interfaces, componentes escalables y optimización de performance para productos de alta demanda. He trabajado con microservicios y flujos de datos complejos, incluyendo integraciones en tiempo real con Firebase, y también me involucro en la parte de entrega: CI/CD, Docker y despliegues automatizados. Me gusta dejar bases sólidas (estándares, buenas prácticas y DX) para que el equipo avance rápido sin sacrificar calidad."
   },
   "contact": {
     "title": "Contacto",
-    "body": "Si quieres platicar sobre una vacante o colaboración, escríbeme y con gusto coordinamos una llamada.",
+    "body": "Si quieres hablar de una vacante, un proyecto o una colaboración, escríbeme y coordinamos una llamada.",
     "cta": "Enviar correo"
   }
 }

@@ -13,6 +13,8 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{l
     notFound();
   }
 
+  const links = project.links ?? [];
+
   return (
     <main className="min-h-screen bg-white dark:bg-neutral-950 pt-20">
       <section className="border-b border-neutral-100 dark:border-neutral-900 bg-neutral-50/50 dark:bg-neutral-900/20 py-16 lg:py-24">
@@ -30,11 +32,23 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{l
               </div>
             </div>
 
-            <div className="flex gap-4">
-              <button className="rounded-full bg-neutral-950 px-6 py-3 text-sm font-bold text-white transition-transform hover:scale-105 dark:bg-white dark:text-neutral-950 shadow-lg">
-                Live Preview
-              </button>
-            </div>
+            {
+              links.length > 0 && (
+                <div className="flex flex-wrap gap-4">
+                  {links.map((link) => (
+                    <a
+                      key={link.href}
+                      href={link.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-block rounded-full bg-neutral-900 text-white px-5 py-3 text-sm font-medium transition-colors hover:bg-neutral-800"
+                    >
+                      {link.label}
+                    </a>
+                  ))}
+                </div>
+              )
+            }
           </div>
         </div>
       </section>
@@ -82,11 +96,11 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{l
               ))}
             </div>
 
-            <div className="mt-16 aspect-video w-full overflow-hidden rounded-[2.5rem] bg-neutral-100 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 shadow-inner flex items-center justify-center">
+            {/* <div className="mt-16 aspect-video w-full overflow-hidden rounded-[2.5rem] bg-neutral-100 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 shadow-inner flex items-center justify-center">
               <p className="text-sm font-medium text-neutral-400 uppercase tracking-widest">
                 Mockup / Image Placeholder
               </p>
-            </div>
+            </div> */}
           </div>
           
         </div>

@@ -24,7 +24,10 @@
     "role": "Rol",
     "highlights": "Lo más relevante",
     "filterLabel": "Filtrar por tecnología",
-    "filterAll": "Todo"
+    "filterAll": "Todo",
+    "viewAll": "Ver todos los proyectos",
+    "allTitle": "Todos los proyectos",
+    "allSubtitle": "Lista completa de mis proyectos web, mobile y fullstack."
   },
   "about": {
     "title": "Un poco sobre mí",

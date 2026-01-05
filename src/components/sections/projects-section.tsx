@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import type {Locale, Project} from '@/content/types';
 import {getTranslations} from 'next-intl/server';
 import Reveal from '@/motion/reveal';
@@ -28,9 +29,20 @@ export default async function ProjectsSection({
             </p>
           </Reveal>
         </div>
-        
-        {/* Línea decorativa opcional */}
-        <div className="hidden h-px flex-1 bg-neutral-200 dark:bg-neutral-800 ml-8 mb-4 md:block" />
+
+        <div className="flex w-full items-center gap-6 md:w-auto md:justify-end">
+          <div className="hidden h-px flex-1 bg-neutral-200 dark:bg-neutral-800 md:block" />
+          <Link
+            href={`/${locale}/projects`}
+            className="inline-flex items-center gap-2 rounded-full border border-neutral-200 bg-white px-5 py-3 text-sm font-medium text-neutral-900 shadow-sm
+                       transition hover:bg-neutral-50 hover:border-neutral-300
+                       focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-900/20 focus-visible:ring-offset-2
+                       dark:border-neutral-800 dark:bg-neutral-950 dark:text-white dark:hover:bg-neutral-900"
+          >
+            {t('viewAll')}
+            <span aria-hidden>→</span>
+          </Link>
+        </div>
       </div>
 
       <Stagger>

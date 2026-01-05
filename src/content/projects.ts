@@ -1,22 +1,51 @@
 import type {Project} from './types';
 
 export const projects: Project[] = [
-  {
-    slug: 'creare-club-platform',
+    {
+    slug: 'creareride-creare',
     featured: true,
-    name: 'Creare Club',
+    name: 'Creare Ride - Creare Club',
     summary: {
-      es: 'Plataforma multi-tenant para operación y crecimiento de negocios (módulos administrativos, usuarios, permisos y flujos operativos).',
-      en: 'Multi-tenant platform to operate and scale businesses (admin modules, users, permissions, and operational workflows).'
+      es: 'Web App para la gestion total de reservaciones y operaciones de estudios fitness.',
+      en: 'Web App for complete management of reservations and operations for fitness studios.'
     },
     role: {
-      es: 'Fullstack Developer (Frontend-heavy). Ownership de UI, APIs, modelado y despliegue.',
-      en: 'Fullstack Developer (Frontend-heavy). Owned UI, APIs, data modeling, and deployment.'
+      es: 'Fullstack / Frontend.',
+      en: 'Fullstack / Frontend.'
     },
     highlights: {
       es: [
-        'Arquitectura multi-tenant y diseño de módulos escalables.',
-        'Construcción de UI compleja con formularios dinámicos y estados robustos.',
+        'Cacheo de información y optimización de performance con React Query.',
+        'Arquitectura modular y escalable con microfrontends.',
+        'Integración con múltiples APIs y servicios de terceros.'
+      ],
+      en: [
+        'Data caching and performance optimization with React Query.',
+        'Modular and scalable architecture with microfrontends.',
+        'Integration with multiple APIs and third-party services.'
+      ]
+    },
+    stack: ['React', 'MUI', 'JavaScript', 'Web', 'React Query', 'MapBox API', 'Firebase'],
+    links: [
+      { type: 'website', label: 'Preview', href: 'https://creare.creareride.app' }
+    ],
+  },
+  {
+    slug: 'eco-ride-creare',
+    featured: true,
+    name: 'Eco Ride - Creare Club',
+    summary: {
+      es: 'Aplicación mobile para servicio de transporte compartido ecológico.',
+      en: 'Mobile app for ecological shared transportation service.'
+    },
+    role: {
+      es: 'Fullstack Developer (Frontend). Responsable de UI, APIs, modelado de datos y despliegue.',
+      en: 'Fullstack Developer (Frontend). Responsible for UI, APIs, data modeling, and deployment.'
+    },
+    highlights: {
+      es: [
+        'Uso de API de mapas y geolocalización en tiempo real.',
+        'UI compleja con formularios dinámicos y manejo robusto de estado.',
         'Integración de autenticación/roles y flujos seguros.'
       ],
       en: [
@@ -26,77 +55,45 @@ export const projects: Project[] = [
       ]
     },
     stack: [
-      'Next.js',
-      'React',
-      'TypeScript',
-      'MUI',
-      'Prisma',
-      'PostgreSQL',
+      'React Native',
+      'Expo',
+      'JavaScript',
+      'Node.js',
       'Firebase',
-      'Docker',
-      'Vercel'
+      'Google Maps API',
+      'Async Storage',
+      'RESTful APIs',
+      'Recoil'
     ],
-    links: [
-      { type: 'caseStudy', label: 'Case Study', href: '/projects/creare-club-platform' }
-    ],
-    timeframe: { start: '2021-01' }
   },
   {
     slug: 'tuzobus-hidalgo',
     featured: true,
     name: 'Tuzobús Hidalgo',
     summary: {
-      es: 'Colaboración en un sitio web orientado a información y experiencia de usuario para transporte público.',
-      en: 'Contribution to a public-transport website focused on information architecture and user experience.'
+      es: 'Sitio web de transporte público de Pachuca, Hidalgo. Cuenta con un mapa interactivo de rutas, horarios y detalles del servicio.',
+      en: 'Public transportation website for Pachuca, Hidalgo. Features an interactive map of routes, schedules, and service details.'
     },
     role: {
-      es: 'Frontend / Web Contributor. Enfoque en UI, mantenibilidad y mejoras incrementales.',
-      en: 'Frontend / Web Contributor. Focused on UI, maintainability, and incremental improvements.'
+      es: 'Fullstack / Frontend. Enfoque en UI/UX para el usuario final',
+      en: 'Fullstack / Frontend. Focused on UI/UX for the end user.'
     },
     highlights: {
       es: [
         'Mejoras de UI/UX y ajustes de responsividad.',
         'Mantenimiento y evolución de componentes.',
-        'Optimización de páginas clave (estructura, performance percibida).'
+        'Interactividad con mapas y optimización de performance.',
       ],
       en: [
         'UI/UX improvements and responsive refinements.',
         'Component maintenance and iterative evolution.',
-        'Key page optimizations (structure, perceived performance).'
+        'Map interactivity and performance optimization.',
       ]
     },
-    stack: ['HTML', 'CSS', 'JavaScript', 'Web'],
+    stack: ['React', 'MUI', 'JavaScript', 'Web', 'Redux', 'Google Maps API'],
     links: [
-      // Aqui va el link que no se me olvide
-      // { type: 'website', label: 'Website', href: 'https://...' }
+      { type: 'website', label: 'Website', href: 'https://p-tuzobus.hidalgo.gob.mx' }
     ],
     timeframe: { start: '2022-01', end: '2023-12' }
   },
-  {
-    slug: 'personal-finance-app',
-    featured: false,
-    name: 'Personal Finance App (Expo)',
-    summary: {
-      es: 'App móvil para tracking financiero y seguimiento de planes de pago (proyecto personal).',
-      en: 'Mobile app for finance tracking and payment plan follow-up (personal project).'
-    },
-    role: {
-      es: 'React Native Developer. Diseño de data model, UX y notificaciones.',
-      en: 'React Native Developer. Data model design, UX, and notifications.'
-    },
-    highlights: {
-      es: [
-        'Arquitectura de pantallas y componentes reutilizables.',
-        'Persistencia de datos y flujos de estado.',
-        'Notificaciones locales programadas.'
-      ],
-      en: [
-        'Screen architecture and reusable components.',
-        'Data persistence and state workflows.',
-        'Scheduled local notifications.'
-      ]
-    },
-    stack: ['React Native', 'Expo', 'TypeScript'],
-    timeframe: { start: '2025-01' }
-  }
 ];

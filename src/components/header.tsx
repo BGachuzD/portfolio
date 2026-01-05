@@ -22,7 +22,7 @@ export default function Header() {
   ];
 
   return (
-    <header className="fixed inset-x-0 top-4 z-50 mx-auto flex h-14 max-w-fit items-center justify-center">
+    <header className="fixed inset-x-0 top-5 z-50 mx-auto flex h-14 max-w-fit items-center justify-center">
       <nav className="flex items-center gap-1 rounded-full border border-neutral-200/50 bg-white/70 p-1.5 shadow-lg backdrop-blur-xl dark:border-neutral-800/50 dark:bg-neutral-950/70 dark:shadow-2xl">
         
         <Link

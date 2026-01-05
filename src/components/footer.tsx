@@ -14,7 +14,7 @@ export default async function Footer({ locale }: { locale: Locale }) {
           {/* Info Principal */}
           <div className="space-y-4">
             <h3 className="text-lg font-bold tracking-tighter text-neutral-950 dark:text-white">
-              Gachuz Portfolio
+              Gachuz Portafolio
             </h3>
             <p className="text-sm leading-relaxed text-neutral-500 dark:text-neutral-400 max-w-xs">
               {locale === 'es' 

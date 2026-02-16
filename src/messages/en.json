@@ -11,6 +11,7 @@
     "subheadline": "I build web and mobile products with performance, UX, and maintainability in mind. I’ve led and delivered scalable interfaces, microservice integrations, and multi-tenant architecture end to end.",
     "ctaPrimary": "View projects",
     "ctaSecondary": "Let’s talk",
+    "ctaResume": "Download CV",
     "panelTitle": "Current focus",
     "panelItem1": "UI/UX: interface design, animation, and reusable components with clear standards.",
     "panelItem2": "Architecture: multi-tenant, REST APIs, real-time (Firebase), and SQL/NoSQL modeling.",

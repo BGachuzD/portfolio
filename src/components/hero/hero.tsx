@@ -110,6 +110,15 @@ export default function Hero() {
               >
                 {t('ctaSecondary')}
               </a>
+              <a
+                href="/assets/CV Brayan Gachuz Davila.pdf"
+                download="CV-Brayan-Gachuz-Davila.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center rounded-full border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-transparent px-8 py-4 text-sm font-bold text-neutral-900 dark:text-white transition-all hover:bg-neutral-50 dark:hover:bg-neutral-900"
+              >
+                {t('ctaResume')}
+              </a>
             </motion.div>
           </div>
 
